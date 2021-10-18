@@ -11,3 +11,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light {
+    height: 300px;
+    width: 150px;
+    background: black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.circle {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+.glow {
+    box-shadow: 0px 0px 40px 20px rgb(200, 207, 166);
+}
