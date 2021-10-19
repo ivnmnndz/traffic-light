@@ -9,10 +9,10 @@ const TrafficLight = () => {
 			{lights.map((item, index) => (
 				<Circle
 					key={index}
-					lights={item}
-					selected={lights[index].color === isSelected ? true : false}
+					light={item}
+					selected={item.color === isSelected ? true : false}
 					onClick={() => {
-						setIsSelected(lights[index].color);
+						setIsSelected(item.color);
 					}}
 				/>
 			))}
